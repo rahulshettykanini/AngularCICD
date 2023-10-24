@@ -2,9 +2,9 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: './app.component.html', // Link to the HTML template
 })
 export class AppComponent {
-  title = 'angularCICD';
+  title = 'My Angular App';
+  message = 'Welcome to Angular testing with Jasmine and Karma!';
 }
